@@ -1,0 +1,26 @@
+{
+  "name": "@codex-remote-controller/web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "check": "tsc -b --pretty false",
+    "verify:responsive": "node scripts/verify-responsive.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.0.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "playwright": "^1.61.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "codex-remote-controller",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:server": "npm --workspace apps/server run dev",
+    "build:web": "npm --workspace apps/web run build",
+    "build:server": "npm --workspace apps/server run build",
+    "check:web": "npm --workspace apps/web run check",
+    "check:server": "npm --workspace apps/server run check",
+    "pair": "npm --workspace apps/server run pair",
+    "devices:list": "npm --workspace apps/server run devices:list",
+    "devices:revoke": "npm --workspace apps/server run devices:revoke"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
