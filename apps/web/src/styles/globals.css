@@ -714,11 +714,17 @@ button {
 }
 
 .composer-row {
+  position: relative;
+  z-index: 4;
   display: flex;
   width: 100%;
   min-width: 0;
   align-items: center;
   padding-top: 8px;
+}
+
+.input-panel--upload-open .composer-row {
+  z-index: 10;
 }
 
 .composer {
@@ -1006,6 +1012,7 @@ button {
   position: absolute;
   bottom: calc(100% + 8px);
   left: 0;
+  z-index: 12;
   display: grid;
   width: 132px;
   overflow: hidden;

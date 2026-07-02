@@ -4,6 +4,19 @@
 
 当前版本定位为个人或私有网络使用，不面向多租户公网服务。
 
+## 效果预览
+
+<table>
+  <tr>
+    <td><img src="images/0201.png" alt="扫码配对与授权" /></td>
+    <td><img src="images/0202.png" alt="手机端 Codex 控制台" /></td>
+  </tr>
+  <tr>
+    <td><img src="images/0203.png" alt="终端输出与快捷按键" /></td>
+    <td><img src="images/0204.png" alt="文件上传与移动端操作" /></td>
+  </tr>
+</table>
+
 ## 功能
 
 - 二维码配对：控制页面必须通过服务端生成的一次性二维码授权进入。

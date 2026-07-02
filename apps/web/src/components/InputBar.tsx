@@ -209,7 +209,7 @@ export function InputBar({
   }
 
   return (
-    <footer className="input-panel">
+    <footer className={`input-panel ${uploadOpen ? "input-panel--upload-open" : ""}`}>
       {attachments.length > 0 ? (
         <div className="attachment-row" aria-label="附件列表">
           {attachments.map((attachment) => (
